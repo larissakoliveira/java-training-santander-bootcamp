@@ -1,106 +1,67 @@
-# Bank Account Terminal Application
+# Santander Bootcamp 2024: Back-end Java Track
 
-Welcome to the **Bank Account Terminal Application** project! This project demonstrates a simple console-based application that captures and displays bank account information. Users input their account details through the terminal, and the program then provides a summary of their account.
+Welcome to the Back-end Java track of the **Santander Bootcamp 2024**! This bootcamp is designed to guide you from the fundamentals of Java syntax to the implementation of a full-featured API using Spring, preparing you to become a highly sought-after professional in the industry.
 
-## Project Overview
+## Curriculum Overview
 
-The `BankAccount` project is designed to simulate a basic interaction with a bank’s system via a terminal interface. Users can input their account details, such as account number, agency code, client name, and balance. The system will then output a formatted message summarizing their account information.
+### 1. Principles of Collaborative Software Development
+Learn the essential practices for working effectively in team environments, including version control, code reviews, and collaborative tools.
 
-### Project Structure
+### 2. Mastering the Java Programming Language
+Build a strong foundation in Java, starting from basic syntax to more complex features. Gain proficiency in writing clean, efficient, and maintainable Java code.
 
-The project consists of a single class, `AccountTerminal.java`, responsible for handling user input and displaying the account information.
+### 3. Object-Oriented Programming with Java
+Dive into the principles of object-oriented programming (OOP) and how to apply them using Java. Understand key concepts like inheritance, polymorphism, encapsulation, and abstraction.
 
-## Attributes and Data Types
+### 4. Testing and Dependency Management in Java Projects
+Discover best practices for testing Java applications, including unit tests and integration tests. Learn how to manage project dependencies using tools like Maven and Gradle.
 
-The application captures the following details about a bank account:
+### 5. SQL and NoSQL Databases for Back-end Developers
+Explore the fundamentals of working with both SQL and NoSQL databases. Understand the differences and learn how to integrate and manage them within your back-end applications.
 
-| Attribute    | Type    | Example       |
-|--------------|---------|---------------|
-| Account Number | Integer | 1021          |
-| Agency Code  | Text    | 067-8         |
-| Client Name  | Text    | MARIO ANDRADE |
-| Balance      | Decimal | 237.48        |
+### 6. Boosting Productivity with Spring Framework and Java
+Get hands-on experience with the Spring Framework, one of the most popular frameworks for building enterprise applications. Learn how to leverage Spring's features to create robust and scalable applications.
 
-## How It Works
+### 7. Soft Skills in the Agile Era: Connecting People and Opportunities
+Enhance your soft skills essential for the modern workplace, including communication, teamwork, and problem-solving. Learn how to navigate and thrive in agile work environments.
 
-1. **Input Handling**:
-   - The application uses the `Scanner` class to read user input from the terminal.
-   - It prompts the user to enter their account number, agency code, client name, and balance.
+## What You'll Achieve
 
-2. **Data Storage**:
-   - The input data is stored in appropriate variables corresponding to their data types.
+By the end of this bootcamp, you will:
 
-3. **Output Message**:
-   - After all the data is entered, the application concatenates these details into a summary message.
-   - The output message is formatted to greet the user and display their account information.
-
-## Example Interaction
-
-Here’s an example of how the interaction works:
-
-Program: "Please enter your account number!"
-User: 1021
-
-Program: "Please enter your agency code!"
-User: 067-8
-
-Program: "Please enter your name!"
-User: JOHN DOE
-
-Program: "Please enter your balance!"
-User: 237.48
-
-Output: "Hello JOHN DOE, thank you for creating an account at our bank. Your agency is 067-8, account 1021, and your balance 237.48 is now available for withdrawal."
-
+- Have a comprehensive understanding of Java programming and its application in back-end development.
+- Be able to design and implement efficient, scalable APIs using Spring.
+- Master the use of both relational and non-relational databases in your applications.
+- Develop essential soft skills that complement your technical expertise and enhance your employability.
 
 ## Getting Started
 
-### Prerequisites
+1. **Enroll in the Bootcamp**:
+   - Ensure you are registered for the Santander Bootcamp 2024.
 
-- Ensure you have the Java Development Kit (JDK) installed.
-- Basic knowledge of Java and terminal operations is helpful.
+2. **Prepare Your Development Environment**:
+   - Install the necessary tools and software, including the Java Development Kit (JDK) and an Integrated Development Environment (IDE) like IntelliJ IDEA or Eclipse.
 
-### Running the Application
+3. **Follow the Learning Path**:
+   - Engage with each module sequentially to build your knowledge and skills progressively.
 
-1. **Compile `AccountTerminal.java`**:
-    ```bash
-    javac AccountTerminal.java
-    ```
-2. **Run the compiled class**:
-    ```bash
-    java AccountTerminal
-    ```
+4. **Participate Actively**:
+   - Join discussions, complete assignments, and collaborate with peers to maximize your learning experience.
 
-## Detailed Steps
+5. **Apply Your Skills**:
+   - Work on projects and real-world scenarios to apply what you've learned and build a strong portfolio.
 
-1. **Clone or Download the Repository**:
-   - Clone the repository or download the source files to your local machine.
+## Additional Resources
 
-2. **Open a Terminal**:
-   - Navigate to the directory containing `AccountTerminal.java`.
-
-3. **Compile the Java File**:
-   - Use the `javac` command to compile the source file:
-     ```bash
-     javac AccountTerminal.java
-     ```
-
-4. **Execute the Program**:
-   - Run the compiled class with the `java` command:
-     ```bash
-     java AccountTerminal
-     ```
-
-5. **Follow the Prompts**:
-   - Enter the required information as prompted by the program.
-
-6. **View the Summary**:
-   - After entering all information, the program will display the summary message.
+- [Java Documentation](https://docs.oracle.com/javase/8/docs/)
+- [Spring Framework Guide](https://spring.io/guides)
+- [Maven Documentation](https://maven.apache.org/guides/index.html)
+- [Gradle Documentation](https://docs.gradle.org/current/userguide/userguide.html)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This bootcamp is provided by Santander and its partners under the applicable terms of use.
 
 ---
 
-Thank you for using the Bank Account Terminal Application! Feel free to contribute or report issues in the repository.
+We are excited to have you on this journey to mastering back-end development with Java. Good luck, and enjoy learning!
