@@ -14,12 +14,12 @@ The project consists of a single class, `AccountTerminal.java`, responsible for 
 
 The application captures the following details about a bank account:
 
-| Attribute    | Type    | Example       |
-|--------------|---------|---------------|
-| Account Number | Integer | 1021          |
-| Agency Code  | Text    | 067-8         |
-| Client Name  | Text    | MARIO ANDRADE |
-| Balance      | Decimal | 237.48        |
+| Attribute      | Type    | Example   |
+|--------------- |---------|-----------|
+| Account Number | Integer | 1021      |
+| Agency Code    | Text    | 067-8     |
+| Client Name    | Text    | JOHN DOE  |
+| Balance        | Decimal | 237.48    |
 
 ## How It Works
 
